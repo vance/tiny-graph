@@ -1,5 +1,5 @@
-# tiny-graph js
-The tiniest variable debugging graph, 64 lines of code!
+# tiny-graph 
+The tiniest javascript variable debugging graph, 64 lines of code!
 
 ![tin-graph](https://cloud.githubusercontent.com/assets/145471/15024175/b11b2d24-11e8-11e6-8b64-4810a9bf6cea.png)
 
