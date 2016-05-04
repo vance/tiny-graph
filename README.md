@@ -2,6 +2,9 @@
 ### js Debugging Helper with 0 Depedencies, Only 53 Lines of Code
 The tiniest javascript variable debugging graph
 
+## [Live Demo!](http://codepen.io/flamingspew/pen/MyZmam) <--click me!
+
+
 ![tin-graph](https://cloud.githubusercontent.com/assets/145471/15024175/b11b2d24-11e8-11e6-8b64-4810a9bf6cea.png)
 
 * Tag events on the graph
