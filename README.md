@@ -1,6 +1,6 @@
 # tiny-graph 
 ### The tiniest javascript variable debugging graph
-#### 0 Depedencies, 53 Lines of Code, does not require canvas
+#### 0 Depedencies, 46 Lines of Code, does not require canvas
 
 
 ## [Live Demo!](http://codepen.io/flamingspew/pen/MyZmam) <--click me!
@@ -19,7 +19,7 @@ Useful for quick debugging for things such as scrolling or physics.
 Put it on you HTML:
 ```
 <script src="tiny-graph.js"></script>
-<div id="graph" style="width:100%;heght:500px"></div> <!-- or whatever size you want -->
+<div id="tiny-graph" style="width:100%;heght:500px"></div> <!-- or whatever size you want -->
 ```
 
 ### Call it
