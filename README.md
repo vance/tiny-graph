@@ -1,5 +1,5 @@
 # tiny-graph 
-### Debugging Helper with 0 Depedencies, Only 64 Lines of Code
+### js Debugging Helper with 0 Depedencies, Only 64 Lines of Code
 The tiniest javascript variable debugging graph
 
 ![tin-graph](https://cloud.githubusercontent.com/assets/145471/15024175/b11b2d24-11e8-11e6-8b64-4810a9bf6cea.png)
