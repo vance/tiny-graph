@@ -40,4 +40,6 @@ Put down a marker when an event fires
 * **multiplier** [optional] = scale it up or down to fit, e.g. 0.1 or 100
 * **vSize** [optional] = vertical size of the plot (a.k.a. plot a second dimension as a thickness)
 
+You can also set the x axis registration by editing the xAxis variable in the src, if you want to plot negative values, for instance. 
+
 
