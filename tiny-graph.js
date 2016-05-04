@@ -5,7 +5,6 @@ window._graph = {
   xAxis: 20,
   labelSkew: 50,
   draw: function(val, color , label, multiplier, vSize) {
-
     var map = this.objectMap[color];
     var target = document.getElementById('graph');
 
@@ -38,7 +37,6 @@ window._graph = {
     } else {
       map.xPos ++;
     }
-
     map.val = val * multiplier;
 
     var node = document.createElement('div');
