@@ -23,7 +23,7 @@ That's it. Now just call it from anywhere you want to debug:
 ```
 var canvasHeight = 50;
 window._graph.draw(canvasHeight, 'yellow', 'canvasHeight');
-//draws a plot at 50 at the current x value 
+//draws a plot at 50 at the current x value labeled as 'canvasHeight'
 ```
 x value is simply incremented with each call
 
