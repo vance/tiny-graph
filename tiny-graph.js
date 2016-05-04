@@ -5,21 +5,15 @@ window._graph = {
   labelSkew: 50,
   draw: function(val, color , label, multiplier, vSize) {
     var map = this.objectMap[color];
-    var target = document.getElementById('graph');
+    var target = document.getElementById('tiny-graph');
     var node = document.createElement('div');
-    if( ! multiplier ){
-      multiplier = 1;
-    }
-    if( !vSize ){
-      vSize = 3
-    }
+    if( ! multiplier ){ multiplier = 1;}
+    if( !vSize ){ vSize = 3;}
     if( !map){
-      var id = 'graph-' +  Math.round( Math.random() * 40000 );
       var l = document.createElement('div');
       l.style.position = 'absolute';
       l.style.color = color;
       l.innerHTML = label;
-      l.id=id;
       target.appendChild(l);
       this.objectMap[color] = {
         label:l,
