@@ -17,11 +17,11 @@ Put it on you HTML:
 <div id="graph" style="width:100%;heght:500px"></div> <!-- or whatever size you want -->
 ```
 
-### That's it. 
-Now just call it from anywhere you want to debug:
+### Call it
+That's it. Now just call it from anywhere you want to debug:
 ```
-var myVar = 50;
-window._graph.draw(myVar, 'yellow', 'self.$$canvasheight');
+var canvasHeight = 50;
+window._graph.draw(canvasHeight, 'yellow', 'canvasHeight');
 //draws a plot at 50 at the current x value 
 ```
 x value is simply incremented with each call
@@ -30,7 +30,7 @@ x value is simply incremented with each call
 Put down a marker when an event fires
 `window._graph.tag('someEvent');`
 
-options
+### Options
 `draw(val, color , label, multiplier, vSize)`
 
 * **val** [required] = the value
