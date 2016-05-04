@@ -46,7 +46,7 @@ window._graph = {
     node.style.color = 'white';
     node.innerHTML = '* ' + val;
     node.style.marginLeft = (this.xPos  ) + 'px';
-    node.style.marginTop = '-7px';
+    node.style.marginTop = '7px';
     target.appendChild(node);
   }
 };
