@@ -1,4 +1,3 @@
-/* (c)2016 Vance Feldman, ForeverScape.com */
 window._graph = {
   xPos:0,
   objectMap:{},
@@ -7,14 +6,13 @@ window._graph = {
   draw: function(val, color , label, multiplier, vSize) {
     var map = this.objectMap[color];
     var target = document.getElementById('graph');
-
+    var node = document.createElement('div');
     if( ! multiplier ){
       multiplier = 1;
     }
     if( !vSize ){
       vSize = 3
     }
-
     if( !map){
       var id = 'graph-' +  Math.round( Math.random() * 40000 );
       var l = document.createElement('div');
@@ -24,11 +22,6 @@ window._graph = {
       l.id=id;
       target.appendChild(l);
       this.objectMap[color] = {
-        val: val,
-        color:color,
-        multiplier:multiplier,
-        vSize:vSize,
-        xPos:0,
         label:l,
         skew: this.labelSkew
       };
@@ -37,17 +30,13 @@ window._graph = {
     } else {
       map.xPos ++;
     }
-    map.val = val * multiplier;
-
-    var node = document.createElement('div');
-    node.style.cssText = 'width:3px;height:'+ map.vSize+'px;background-color:' + map.color+ ';position:absolute;';
-
+    val = val * multiplier;
+    node.style.cssText = 'width:3px;height:'+ vSize+'px;background-color:' + color+ ';position:absolute;';
     node.style.marginLeft = this.xPos+ 'px';
-    node.style.marginTop = (map.val + this.xAxis) + 'px';
+    node.style.marginTop = (val + this.xAxis) + 'px';
     target.appendChild(node);
-
     map.label.style.marginLeft =  this.xPos + 20 + 'px';
-    map.label.style.marginTop = (map.val + this.xAxis - 15 + map.skew ) + 'px';
+    map.label.style.marginTop = (val + this.xAxis - 15 + map.skew ) + 'px';
     this.xPos += .25;
   },
   tag:function(val){
