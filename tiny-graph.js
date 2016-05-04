@@ -1,3 +1,4 @@
+/* (c)2016 Vance Feldman, ForeverScape.com */
 window._graph = {
   xPos:0,
   objectMap:{},
