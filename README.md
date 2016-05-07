@@ -1,7 +1,7 @@
 # tiny-graph 
 #### The tiniest javascript variable debugging graph
 #### [Live Demo!](http://codepen.io/flamingspew/pen/MyZmam) <--click me!
-##### 0 Depedencies, 46 Lines of Code, does not require canvas
+##### 0 Depedencies, 45 Lines of Code, does not require canvas
 
 Why so tiny? So you can easily comprehend it and easily modify it per project to suit your needs. 
 
