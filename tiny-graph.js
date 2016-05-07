@@ -21,8 +21,6 @@ window._graph = {
       };
       this.labelSkew -= 10;
       map = this.objectMap[color];
-    } else {
-      map.xPos ++;
     }
     val = val * multiplier;
     node.style.cssText = 'width:3px;height:'+ vSize+'px;background-color:' + color+ ';position:absolute;';
